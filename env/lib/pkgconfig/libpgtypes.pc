@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.9
+Requires: 
+Requires.private: 
+Cflags: -I/Users/bhavyagiri/Developer/hands-on-machine-learning/practice/env/include
+Libs: -L/Users/bhavyagiri/Developer/hands-on-machine-learning/practice/env/lib -lpgtypes
+Libs.private: -L/Users/bhavyagiri/Developer/hands-on-machine-learning/practice/env/lib -lpgcommon -lpgport -lm
